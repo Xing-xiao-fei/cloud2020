@@ -35,7 +35,7 @@ public class PaymentController {
         log.info("***result:" + result);
         return result;
     }
-
+    //xxf合并测试
     //====服务熔断
     @GetMapping("/payment/circuit/{id}")
     public String paymentCircuitBreaker(@PathVariable("id") Integer id)
